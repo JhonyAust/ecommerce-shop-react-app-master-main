@@ -31,6 +31,15 @@ const Header = () => {
           </div>
         </Link>
 
+        {/* Links to other pages */}
+        <div className="flex">
+          <Link to="/" className="ml-6">Home</Link>
+          <Link to="/" className="ml-6">Shop</Link>
+          <Link to="/" className="ml-6">Contact</Link>
+          <Link to="/" className="ml-6">About Us</Link>
+        </div>
+
+
         {/* cart */}
         <div
           onClick={() => setIsOpen(!isOpen)}
